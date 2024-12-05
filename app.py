@@ -16,7 +16,7 @@ CORS(app)
 # Initialize the assistant
 MODEL_PATH = './results/power_consumption_model.pkl'
 assistant = PowerConsumptionAssistant(
-    csv_path=r"C:\Users\Aditya B\OneDrive\Desktop\Hackaphasia_Syndicate\RealTimeData\power_consumption_10min_averages.csv", 
+    csv_path=r"RealTimeData\power_consumption_10min_averages.csv", 
     model_path=MODEL_PATH if os.path.exists(MODEL_PATH) else None
 )
 
