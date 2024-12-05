@@ -1,0 +1,33 @@
+body {
+    background-color: #f9fafb;
+    font-family: 'Inter', sans-serif;
+}
+
+.soft-gradient {
+    background: linear-gradient(135deg, #e0e7ff 0%, #f0f5ff 100%);
+}
+
+.chat-scrollbar::-webkit-scrollbar {
+    width: 4px;
+}
+
+.chat-scrollbar::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.05);
+}
+
+.chat-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(59,130,246,0.4);
+    border-radius: 2px;
+}
+.login-gradient {
+    background: linear-gradient(135deg, #e0e7ff 0%, #f0f5ff 100%);
+}
+
+.login-card {
+    box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.login-card:hover {
+    transform: translateY(-5px);
+}

@@ -1,0 +1,16 @@
+.env
+venv
+__pycache__
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.tmp
+*.temp
+*.log
+instance/
+.vscode/
+Thumbs.db
+ehthumbs.db
+temp_*
+node_modules/
