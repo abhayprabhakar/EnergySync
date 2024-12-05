@@ -21,18 +21,12 @@
    git clone https://github.com/abhayprabhakar/EnergySync.git  
    cd EnergySync  
    ```  
-
-2. Install dependencies:  
-   ```bash  
-   pip install -r requirements.txt  
-   ```  
-
-3. Run the application:  
+2. Run the application:  
    ```bash  
    python3 app.py  
    ```  
 
-4. Access the dashboard at `http://localhost:5000`.  
+3. Access the dashboard at `http://localhost:5000`.  
 
 ## Usage  
 1. **Connect Devices:** Add devices to the dashboard for energy tracking.  
